@@ -1,0 +1,138 @@
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.logo_container{
+    width: 160px;
+    height: 46%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    animation-name: examples;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+img{
+    width: 160px;
+    height: 50px;
+}
+
+.justify-spece-between{
+    justify-content: space-between;
+}
+.car1{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card_container{
+    position: relative;
+    width: 50%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+.left_logo{
+    width: 160px;
+    height: 46%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    animation-name: left-logo;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes examples {
+    0% {left: 0px; top: 0px;}
+    100% {left: 1100px; top: 0px;}
+}
+@keyframes left-logo {
+    0% {left: 0px; top: 0px;}
+    100% {left: 0; top: 500px;}
+}
+
+
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
